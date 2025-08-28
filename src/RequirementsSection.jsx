@@ -8,7 +8,7 @@ const RequirementsSection = () => {
             id="lead-item-container-text"
           >
             <h3 className="font-semibold mt-0 text-3xl md:text-5xl mb-0">
-              Bolt Food courier requirements
+              FD365 driver requirements
             </h3>
           </div>
         </div>
@@ -38,7 +38,8 @@ const RequirementsSection = () => {
                 </h6>
                 <div className="flex flex-col gap-y-4">
                   <p className="mt-0 text-base leading-6 font-normal mb-0 text-secondary">
-                    Proving that you meet the minimum age requirement
+                    Driver's license or government-issued ID proving minimum age
+                    requirement
                   </p>
                 </div>
               </div>
@@ -69,7 +70,8 @@ const RequirementsSection = () => {
                 </h6>
                 <div className="flex flex-col gap-y-4">
                   <p className="mt-0 text-base leading-6 font-normal mb-0 text-secondary">
-                    Android 9.0+ or iOS 12+, with a local number
+                    iPhone (iOS 12+) or Android (9.0+) with data plan for driver
+                    app
                   </p>
                 </div>
               </div>
@@ -96,11 +98,42 @@ const RequirementsSection = () => {
               </div>
               <div>
                 <h6 className="font-semibold mt-0 text-base md:text-lg mb-0 mb-2">
-                  Scooter, bike or car
+                  Vehicle or bike
                 </h6>
                 <div className="flex flex-col gap-y-4">
                   <p className="mt-0 text-base leading-6 font-normal mb-0 text-secondary">
-                    With a valid licence and insurance
+                    Car, scooter, or bicycle with valid license and insurance
+                    where required
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full">
+            <div className="flex gap-4 flex-col md:flex-col">
+              <div className="text-tertiary">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-primary"
+                >
+                  <path
+                    d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 7.5V9C15 9.66 14.66 10.26 14.07 10.58L13 11.24V14.5C14.14 15.5 15 16.96 15 18.5C15 21 13 22.5 10.5 22.5S6 21 6 18.5C6 16.96 6.86 15.5 8 14.5V11.24L6.93 10.58C6.34 10.26 6 9.66 6 9V7.5L3 7V9C3 10.1 3.9 11 5 11H8V12C8 13.1 8.9 14 10 14H14C15.1 14 16 13.1 16 12V11H19C20.1 11 21 10.1 21 9Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <h6 className="font-semibold mt-0 text-base md:text-lg mb-0 mb-2">
+                  Background check
+                </h6>
+                <div className="flex flex-col gap-y-4">
+                  <p className="mt-0 text-base leading-6 font-normal mb-0 text-secondary">
+                    Pass a basic background screening process for safety and
+                    security
                   </p>
                 </div>
               </div>

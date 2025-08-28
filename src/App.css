@@ -3,10 +3,17 @@
 
 /* EXACT: CSS Variables from bolt.html */
 :root {
-  /* Action Colors */
-  --color-action-primary: #34d186;
-  --color-active-action-primary: #2eb875;
-  --color-action-secondary: #248f5b;
+  /* FD365 Primary Colors */
+  --color-action-primary: #448844;
+  --color-active-action-primary: #3a7a3a;
+  --color-action-secondary: #5a9a5a;
+
+  /* FD365 Accent Colors */
+  --color-accent-lime: #ddff22;
+  --color-accent-yellow: #eedd66;
+  --color-accent-pink: #ffccdd;
+  --color-accent-purple: #ddaadd;
+  --color-accent-cream: #fdf4f0;
 
   /* Static Colors */
   --color-static-key-light: #ffffff;
@@ -47,7 +54,7 @@
   /* Text Colors */
   --color-text-primary: #2f313f;
   --color-text-secondary: #818391;
-  --color-text-tertiary: #34d186;
+  --color-text-tertiary: #448844;
 }
 
 /* EXACT: Reset and base styles from bolt.html */
@@ -388,18 +395,18 @@ a {
   --color-content-primary: #191f1c;
   --color-content-secondary: #000a07a1;
   --color-content-tertiary: #00110b78;
-  --color-content-action-primary: #007042eb;
-  --color-content-action-secondary: #007042eb;
+  --color-content-action-primary: #448844;
+  --color-content-action-secondary: #448844;
   --color-content-danger-primary: #ad000ef0;
   --color-content-danger-secondary: #ad000ef0;
   --color-content-warning-primary: #9e5b00;
   --color-content-warning-secondary: #ffb200;
-  --color-content-positive-primary: #007042eb;
-  --color-content-positive-secondary: #007042eb;
+  --color-content-positive-primary: #448844;
+  --color-content-positive-secondary: #448844;
   --color-content-promo-primary: #3804d7f0;
   --color-content-promo-secondary: #3804d7f0;
-  --color-content-link-primary: #007042eb;
-  --color-content-link-secondary: #007042eb;
+  --color-content-link-primary: #448844;
+  --color-content-link-secondary: #448844;
   --color-content-primary-inverted: #fdfffeed;
   --color-content-secondary-inverted: #f4fef9b0;
   --color-content-action-primary-inverted: #74efaa;
@@ -519,28 +526,28 @@ html {
   --color-content-secondary: #121d2b99;
   --color-content-tertiary: #061a375c;
   --color-content-action-primary: #1d965c;
-  --color-content-action-secondary: #32bb78;
+  --color-content-action-secondary: #448844;
   --color-content-danger-primary: #c91d2b;
   --color-content-danger-secondary: #eb4755;
   --color-content-warning-primary: #f58300;
   --color-content-warning-secondary: #ffb200;
   --color-content-positive-primary: #1d965c;
-  --color-content-positive-secondary: #32bb78;
+  --color-content-positive-secondary: #448844;
   --color-content-promo-primary: #4450d5;
   --color-content-promo-secondary: #5b68f6;
   --color-content-link-primary: #1d965c;
-  --color-content-link-secondary: #32bb78;
+  --color-content-link-secondary: #448844;
   --color-content-primary-inverted: #fafafb;
   --color-bg-neutral-primary: #2f313f;
   --color-bg-neutral-secondary: #061a370a;
   --color-bg-neutral-secondary-hard: #061a3729;
-  --color-bg-action-primary: #32bb78;
+  --color-bg-action-primary: #448844;
   --color-bg-action-secondary: #00ff821f;
   --color-bg-danger-primary: #eb4755;
   --color-bg-danger-secondary: #f73b4a1f;
   --color-bg-warning-primary: #f58300;
   --color-bg-warning-secondary: #fc03;
-  --color-bg-positive-primary: #32bb78;
+  --color-bg-positive-primary: #448844;
   --color-bg-positive-secondary: #00ff821f;
   --color-bg-promo-primary: #5b68f6;
   --color-bg-promo-secondary: #5b68f61f;
@@ -551,13 +558,13 @@ html {
   --color-border-neutral-primary: #061a375c;
   --color-border-neutral-secondary: #061a3729;
   --color-border-separator: #061a3714;
-  --color-border-action-primary: #32bb78;
+  --color-border-action-primary: #448844;
   --color-border-action-secondary: #5ae1a0;
   --color-border-danger-primary: #eb4755;
   --color-border-danger-secondary: #f9868f;
   --color-border-warning-primary: #f58300;
   --color-border-warning-secondary: #ffb200;
-  --color-border-positive-primary: #32bb78;
+  --color-border-positive-primary: #448844;
   --color-border-positive-secondary: #5ae1a0;
   --color-border-promo-primary: #5b68f6;
   --color-border-promo-secondary: #848fff;
@@ -809,8 +816,8 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(26 27 35 / var(--tw-bg-opacity));
 }
-.bg-\[\#32BB781A\] {
-  background-color: #32bb781a;
+.bg-\[\#4488441A\] {
+  background-color: #4488441a;
 }
 .bg-\[\#FFFFFF\],
 .bg-\[\#fff\] {
@@ -3007,7 +3014,7 @@ html[lang="ne-np"] {
   pointer-events: none;
 }
 #nprogress .bar {
-  background: #32bb78;
+  background: #448844;
   position: fixed;
   z-index: 1031;
   top: 0;
@@ -3021,7 +3028,7 @@ html[lang="ne-np"] {
   right: 0px;
   width: 100px;
   height: 100%;
-  box-shadow: 0 0 10px #32bb78, 0 0 5px #32bb78;
+  box-shadow: 0 0 10px #448844, 0 0 5px #448844;
   opacity: 1;
   -webkit-transform: rotate(3deg) translate(0px, -4px);
   -ms-transform: rotate(3deg) translate(0px, -4px);
@@ -3039,8 +3046,8 @@ html[lang="ne-np"] {
   height: 18px;
   box-sizing: border-box;
   border: solid 2px transparent;
-  border-top-color: #32bb78;
-  border-left-color: #32bb78;
+  border-top-color: #448844;
+  border-left-color: #448844;
   border-radius: 50%;
   -webkit-animation: nprogress-spinner 400ms linear infinite;
   animation: nprogress-spinner 400ms linear infinite;
