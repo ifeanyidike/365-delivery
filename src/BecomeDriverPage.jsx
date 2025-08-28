@@ -38,7 +38,7 @@ const BecomeDriverPage = () => {
     <main>
       {/* EXACT: Hero Section */}
       <ImageHeroSection
-        imgUrl="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401262/assets/20250827_1509_Delivery_Bag_Branding_remix_01k3permd9ejws0az0kp07etd7_mn7tzq.png"
         bigText="Drive More. Earn More."
         smallText="Flexible hours, steady income, instant payouts."
         button="Apply Now"
@@ -62,6 +62,8 @@ const BecomeDriverPage = () => {
         secondDesc="Keep driving with other delivery apps."
         thirdTitle="Get Paid Quickly"
         thirdDesc="Fast weekly payments to Everee card."
+        actionText="Partner with Us"
+        actionUrl="https://form.jotform.com/251184158830154"
       />
 
       <ModelSection
@@ -73,27 +75,10 @@ const BecomeDriverPage = () => {
         secondDesc="Clear, accurate weekly driver statements."
         thirdTitle="Easy Driver App"
         thirdDesc="Simple management with mobile driver app."
+        actionText="Partner with Us"
+        actionUrl="https://form.jotform.com/251184158830154"
       />
 
-      {/* EXACT: Partners Section */}
-      {/* <PartnersSection /> */}
-
-      {/* EXACT: Benefits Section - Why FD365 */}
-      {/* <BenefitsSection /> */}
-
-      {/* EXACT: Become Merchant Section - image + text layout */}
-      {/* <BecomeMerchantSection /> */}
-
-      {/* EXACT: Become Driver Section - image + text layout */}
-      {/* <BecomeDriverSection /> */}
-
-      {/* EXACT: Requirements Section */}
-      {/* <RequirementsSection /> */}
-
-      {/* EXACT: How It Works Section */}
-      {/* <HowItWorks /> */}
-
-      {/* EXACT: FAQ Section */}
       <FAQSection faqs={faqs} />
     </main>
   );

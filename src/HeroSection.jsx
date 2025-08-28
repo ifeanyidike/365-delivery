@@ -1,4 +1,4 @@
-const HeroSection = ({ bigText, smallText, button }) => {
+const HeroSection = ({ videoUrl, bigText, smallText, button }) => {
   return (
     <article>
       {/* EXACT: Main hero video section */}
@@ -6,12 +6,12 @@ const HeroSection = ({ bigText, smallText, button }) => {
         <video
           autoPlay
           muted
-          src="https://bolt.eu/assets/static/0b38096d8f49dbeab76f9d593319c3e3/courier-hero-video.mp4"
+          src={videoUrl}
           loop
           playsInline
-          className="block absolute object-cover w-full h-full object-center inset-0"
+          className="block absolute object-cover  w-full h-full object-[center_20%] inset-0"
         >
-          <source src="https://bolt.eu/assets/static/0b38096d8f49dbeab76f9d593319c3e3/courier-hero-video.mp4" />
+          <source src={videoUrl} />
         </video>
         <div className="w-full h-full absolute inset-0 bg-gradient-to-t md:bg-gradient-to-br from-[rgba(0,0,0,0.64)] to-[rgba(0,0,0,0)]"></div>
         <div className="container container-md px-6 flex grow relative items-end md:items-center">

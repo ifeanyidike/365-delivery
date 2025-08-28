@@ -38,7 +38,7 @@ const BecomeRestaurantPage = () => {
     <main>
       {/* EXACT: Hero Section */}
       <ImageHeroSection
-        imgUrl="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401411/assets/Gemini_Generated_Image_7uei2j7uei2j7uei_1_oriq5q.png"
         bigText="Lower Fees. Higher Profits."
         smallText="Keep your setup—pay less on every delivery."
         button="Partner With Us"
@@ -62,6 +62,8 @@ const BecomeRestaurantPage = () => {
         secondDesc="Enable FD365 within your apps."
         thirdTitle="We Handle The Rest Automatically"
         thirdDesc="Dispatch managed directly by FD365."
+        actionText="Partner with Us"
+        actionUrl="https://form.jotform.com/252262710248452"
       />
 
       <ModelSection
@@ -73,6 +75,8 @@ const BecomeRestaurantPage = () => {
         secondDesc="Grow sales with wider coverage."
         thirdTitle="Keep Your App Presence Intact"
         thirdDesc="Stay visible on major apps."
+        actionText="Partner with Us"
+        actionUrl="https://form.jotform.com/252262710248452"
       />
       <FAQSection faqs={faqs} />
     </main>

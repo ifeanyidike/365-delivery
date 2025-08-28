@@ -7,6 +7,8 @@ const TechnologySection = ({
   secondDesc,
   thirdTitle,
   thirdDesc,
+  actionText,
+  actionUrl,
 }) => {
   return (
     <section className="container container-md px-6 mb-32 md:mb-40">
@@ -103,15 +105,17 @@ https://bolt.eu/assets/static/94e2b3160d0ae7c62a19fec613573407/1e482/media01.web
               </li>
             </ol>
 
-            {/* EXACT: CTA Button */}
-            {/* <div className="flex justify-center mt-2">
-              <button
-                type="button"
-                className="border-none font-sans cursor-pointer flex justify-center items-center flex-none relative rounded-full font-semibold ease-linear duration-150 antialiased w-fit px-8 py-0 h-12 gap-2 text-base bg-action-primary hover:bg-active-action-primary active:bg-active-action-primary text-static-key-light active:scale-975 active:ease-in-out active:duration-100"
-              >
-                Partner With Us
-              </button>
-            </div> */}
+            {actionText && actionUrl && (
+              <div className="flex justify-center mt-2">
+                <a
+                  href={actionUrl}
+                  role="button"
+                  className="border-none font-sans cursor-pointer flex justify-center items-center flex-none relative rounded-full font-semibold ease-linear duration-150 antialiased w-fit px-8 py-0 h-12 gap-2 text-base bg-action-primary hover:bg-active-action-primary active:bg-active-action-primary text-static-key-light active:scale-975 active:ease-in-out active:duration-100"
+                >
+                  {actionText}
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>

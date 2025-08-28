@@ -38,7 +38,7 @@ const ContactPage = () => {
     <main>
       {/* EXACT: Hero Section */}
       <ImageHeroSection
-        imgUrl="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401262/assets/20250827_1509_Delivery_Bag_Branding_remix_01k3permd9ejws0az0kp07etd7_mn7tzq.png"
         bigText="Let's Get You Started."
         smallText="Our team is here to help you deliver smarter."
         button="Contact Us"

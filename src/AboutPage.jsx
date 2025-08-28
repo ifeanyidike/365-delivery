@@ -39,7 +39,7 @@ const AboutPage = () => {
     <main>
       {/* EXACT: Hero Section */}
       <ImageHeroSection
-        imgUrl="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401411/assets/Gemini_Generated_Image_7uei2j7uei2j7uei_1_oriq5q.png"
         bigText="Built for Restaurants. Powered by Drivers."
         smallText="We make food delivery smarter, cheaper, and more flexible."
         button="Learn More"
