@@ -38,7 +38,7 @@ const HeroSection = ({
 
               <a
                 href="/restaurant"
-                className="border-none !bg-[#1461a0] font-sans cursor-pointer flex justify-center items-center flex-none relative rounded-full font-semibold ease-linear duration-150 antialiased w-fit px-6 py-0 h-12 gap-2 text-base bg-action-primary hover:bg-active-action-primary active:bg-active-action-primary text-static-key-light active:scale-975 active:ease-in-out active:duration-100"
+                className="border-none !bg-white font-sans cursor-pointer flex justify-center items-center flex-none relative rounded-full font-semibold ease-linear duration-150 antialiased w-fit px-6 py-0 h-12 gap-2 text-base bg-action-primary hover:bg-active-action-primary active:bg-active-action-primary text-static-key-dark active:scale-975 active:ease-in-out active:duration-100"
               >
                 {linkText2}
               </a>
