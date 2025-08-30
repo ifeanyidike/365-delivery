@@ -388,7 +388,7 @@ const PrivacyPolicyPage = () => {
           <div className="text-center pt-8 border-t border-separator">
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="inline-flex !bg-[#0761a0] cursor-pointer items-center gap-2 px-6 py-3 bg-action-primary hover:bg-active-action-primary text-static-key-light font-semibold rounded-full transition-colors duration-200"
+              className="inline-flex !bg-[#1461a0] cursor-pointer items-center gap-2 px-6 py-3 bg-action-primary hover:bg-active-action-primary text-static-key-light font-semibold rounded-full transition-colors duration-200"
             >
               <svg
                 className="w-4 h-4"

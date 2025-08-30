@@ -4,9 +4,9 @@
 /* EXACT: CSS Variables from bolt.html */
 :root {
   /* FD365 Primary Colors */
-  --color-action-primary: #fcc314;
-  --color-active-action-primary: #fcc314;
-  --color-action-secondary: #fcc314;
+  --color-action-primary: #f3c038;
+  --color-active-action-primary: #f3c038;
+  --color-action-secondary: #f3c038;
 
   /* FD365 Accent Colors */
   --color-accent-lime: #ddff22;
@@ -54,7 +54,7 @@
   /* Text Colors */
   --color-text-primary: #2f313f;
   --color-text-secondary: #818391;
-  --color-text-tertiary: #fcc314;
+  --color-text-tertiary: #f3c038;
 }
 
 /* EXACT: Reset and base styles from bolt.html */
@@ -298,7 +298,7 @@ a {
 }
 :where([data-mode="dark"], [data-mode="dark"] ::backdrop) {
   --color-content-secondary-inverted: #121d2b99;
-  --color-content-action-primary-inverted: #fcc314;
+  --color-content-action-primary-inverted: #f3c038;
   --color-special-brand: #2a9c64;
   --color-special-brand-alt: #0c2c1c;
   --color-content-active-action-primary-inverted: #127042;
@@ -335,7 +335,7 @@ a {
   --color-bg-neutral-primary: #fbfdfc;
   --color-bg-neutral-secondary: #f4f6e914;
   --color-bg-neutral-secondary-hard: #f2fff42e;
-  --color-bg-action-primary: #fcc314;
+  --color-bg-action-primary: #f3c038;
   --color-bg-action-secondary: #00ff6e1f;
   --color-bg-danger-primary: #de1929;
   --color-bg-danger-secondary: #fe0b0633;
@@ -611,7 +611,7 @@ html {
   --color-bg-neutral-primary: #fafafb;
   --color-bg-neutral-secondary: #ffffff14;
   --color-bg-neutral-secondary-hard: #ffffff29;
-  --color-bg-action-primary: #fcc314;
+  --color-bg-action-primary: #f3c038;
   --color-bg-action-secondary: #00ff821f;
   --color-bg-danger-primary: #db5762;
   --color-bg-danger-secondary: #f73b4a1f;
@@ -675,10 +675,10 @@ html {
     [data-mode="dark"][data-theme="plus"] ::backdrop
   ) {
   --color-content-action-secondary: #5b68f6;
-  --color-bg-action-primary: #fcc314;
+  --color-bg-action-primary: #f3c038;
 }
 :where([data-mode="light"][data-theme="plus"]) {
-  --color-bg-action-primary: #fcc314;
+  --color-bg-action-primary: #f3c038;
 }
 .transform-none {
   transform: none;
@@ -722,7 +722,7 @@ html {
   }
 }
 .before\:bg-action-primary:before {
-  background-color: #fcc314;
+  background-color: #f3c038;
   content: var(--tw-content);
 }
 .before\:bg-danger-primary:before {
