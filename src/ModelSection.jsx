@@ -18,7 +18,7 @@ const ModelSection = ({
             <img
               alt="Become a driver"
               className="relative block rounded w-full h-auto inset-0 object-cover object-center aspect-[4/3] hidden md:block"
-              src="https://res.cloudinary.com/di6d28r5r/image/upload/v1756568049/Gemini_Generated_Image_724i4d724i4d724i_inqf4t.png"
+              src="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401411/assets/Gemini_Generated_Image_7uei2j7uei2j7uei_1_oriq5q.png"
               sizes="(min-width: 1120px) 1120px, 100vw"
               loading="lazy"
             />
@@ -30,7 +30,7 @@ const ModelSection = ({
               <img
                 alt="Become a driver"
                 className="relative block rounded w-full h-auto inset-0 object-cover object-center aspect-[4/3] md:hidden mb-12"
-                src="https://res.cloudinary.com/di6d28r5r/image/upload/v1756568049/Gemini_Generated_Image_724i4d724i4d724i_inqf4t.png"
+                src="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401411/assets/Gemini_Generated_Image_7uei2j7uei2j7uei_1_oriq5q.png"
                 sizes="(min-width: 1120px) 1120px, 100vw"
                 loading="lazy"
               />

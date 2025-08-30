@@ -9,17 +9,17 @@ const faqs = [
   {
     question: "How do I sign up?",
     answer:
-      "To get started, fill out the Delivery Driver Position Application. Once your application is approved, Everee will send you an email and a text message. Download the Everee app and enter the required details—your SSN or TIN, personal and contact information—and sign the tax documents. This sets up your payroll with an Everee Visa Pay Card, which you can use to access your weekly earnings or transfer them to your bank. Then download the First Delivery driver app using the phone number from your application, enter the code sent via text and make sure location services are enabled. If you get stuck at any point, our support team is here to help.",
+      "To get started, fill out the Delivery Driver Position Application. Once your application is approved, Everee will send you an email and a text message. Download the Everee app and enter the required details—your SSN or TIN, personal and contact information—and sign the tax documents. This sets up your payroll with an Everee Visa Pay Card, which you can use to access your weekly earnings or transfer them to your bank. Then download the First Delivery driver app using the phone number from your application, enter the code sent via text and make sure location services are enabled. If you get stuck at any point, our support team is here to help.",
   },
   {
     question: "How are drivers paid?",
     answer:
-      "Drivers are paid through the Everee platform. Once you’ve set up your payroll information, funds are deposited to your Everee Visa Pay Card each week as soon as payroll is processed. You can spend directly from the card or transfer your earnings to your own bank account at any time.",
+      "Drivers are paid through the Everee platform. Once you’ve set up your payroll information, funds are deposited to your Everee Visa Pay Card each week as soon as payroll is processed. You can spend directly from the card or transfer your earnings to your own bank account at any time.",
   },
   {
     question: "Can I also work with Uber/DoorDash?",
     answer:
-      "Yes. FD365 drivers are independent contractors, so you’re free to continue working with other delivery platforms. We don’t require exclusivity, meaning you can accept orders from Uber Eats, DoorDash and similar apps while also driving for FD365.",
+      "Yes. FD365 drivers are independent contractors, so you’re free to continue working with other delivery platforms. We don’t require exclusivity, meaning you can accept orders from Uber Eats, DoorDash and similar apps while also driving for FD365.",
   },
   {
     question: "Do I have to work fixed shifts?",
@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "What support is available to me?",
     answer:
-      "As an FD365 driver you’re never on your own. We offer live support during delivery hours—just call 561-872-6155 or email mark@fooddelivery365.com. Our team can help with app setup, payout questions and on-the-road issues, and we provide tutorials to walk you through using the First Delivery app. If you have any questions about your payments or the dispatch system, you can reach out at any time, and we’ll guide you through the process.",
+      "As an FD365 driver you’re never on your own. We offer live support during delivery hours—just call 5618726155 or email mark@fooddelivery365.com. Our team can help with app setup, payout questions and ontheroad issues, and we provide tutorials to walk you through using the First Delivery app. If you have any questions about your payments or the dispatch system, you can reach out at any time, and we’ll guide you through the process.",
   },
 ];
 

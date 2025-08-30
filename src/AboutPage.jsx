@@ -10,17 +10,17 @@ const faqs = [
   {
     question: "Who can join FD365?",
     answer:
-      "We work with a broad spectrum of food-delivery businesses—local restaurants, pizza shops, ordering services and delivery fleets—because our platform adapts to each operation’s needs. Independent delivery drivers who meet our vetting criteria are also welcome to join. If you run a food business or want to drive for one, FD365 can help you grow.",
+      "We work with a broad spectrum of fooddelivery businesses—local restaurants, pizza shops, ordering services and delivery fleets—because our platform adapts to each operation’s needs. Independent delivery drivers who meet our vetting criteria are also welcome to join. If you run a food business or want to drive for one, FD365 can help you grow.",
   },
   {
     question: "How are you different from Uber/DoorDash?",
     answer:
-      "Unlike marketplace apps that take over your entire delivery operation, FD365 works alongside them. You keep your storefronts on Uber Eats, DoorDash or other platforms, and we handle dispatch and delivery on your behalf. Our fee structure is also more favourable: typical apps charge about 15% for marketplace access plus another 15% for dispatch—a total of 30%. FD365 keeps the marketplace fee the same but reduces the dispatch portion to 10%, so your total drops to around 25%. We also extend your delivery radius to 10 miles rather than the 6–7-mile range many apps provide. And because we integrate directly with your existing apps via secure credentials, you retain control of your settings and customer relationships.",
+      "Unlike marketplace apps that take over your entire delivery operation, FD365 works alongside them. You keep your storefronts on Uber Eats, DoorDash or other platforms, and we handle dispatch and delivery on your behalf. Our fee structure is also more favourable: typical apps charge about 15 % for marketplace access plus another 15 % for dispatch—a total of 30 %. FD365 keeps the marketplace fee the same but reduces the dispatch portion to 10 %, so your total drops to around 25 %. We also extend your delivery radius to 10 miles rather than the 6 to 7mile range many apps provide. And because we integrate directly with your existing apps via secure credentials, you retain control of your settings and customer relationships.",
   },
   {
     question: "Do you replace my current app?",
     answer:
-      "No, FD365 doesn’t replace your ordering apps. You keep using the same platforms you rely on now—Uber Eats, DoorDash or others. We simply integrate via secure credentials to receive orders, dispatch drivers and update order statuses, leaving your storefronts and settings exactly as they are.",
+      "No, FD365 doesn’t replace your ordering apps. You keep using the same platforms you rely on now—Uber Eats, DoorDash or others. We simply integrate via secure credentials to receive orders, dispatch drivers and update order statuses, leaving your storefronts and settings exactly as they are.",
   },
   {
     question: "Is FD365 available nationwide?",
@@ -29,8 +29,27 @@ const faqs = [
   },
   {
     question: "How do I start the process?",
-    answer:
-      "Getting started is simple—and there’s no cost to sign up.\n\nFor restaurants: Start by filling out our quick onboarding form. We’ll connect to your ordering platforms and configure the self-delivery option at no charge. There’s no long-term binding agreement; the service runs on a 12-month term that renews automatically but can be cancelled with 30 days’ notice. Once your accounts are linked, we’ll start dispatching drivers right away.\n\nFor drivers: Fill out the Delivery Driver Position Application. After approval, you’ll receive instructions to set up your payroll and download the driver app. Once those steps are complete, you can begin accepting deliveries and earning income.",
+    answer: (
+      <div>
+        <p>Getting started is simple—and there’s no cost to sign up.</p>
+        <br />
+        <p>
+          For restaurants: Start by filling out our quick onboarding form. We’ll
+          connect to your ordering platforms and configure the self-delivery
+          option at no charge. There’s no long-term binding agreement; the
+          service runs on a 12-month term that renews automatically but can be
+          cancelled with 30 days’ notice. Once your accounts are linked, we’ll
+          start dispatching drivers right away.
+        </p>
+        <br />
+        <p>
+          For drivers: Fill out the Delivery Driver Position Application. After
+          approval, you’ll receive instructions to set up your payroll and
+          download the driver app. Once those steps are complete, you can begin
+          accepting deliveries and earning income.
+        </p>
+      </div>
+    ),
   },
 ];
 

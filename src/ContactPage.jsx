@@ -43,7 +43,6 @@ const ContactPage = () => {
       <CallUs />
       <EmailUs />
       <OnlineAccess />
-      <FAQSection faqs={faqs} />
     </main>
   );
 };
