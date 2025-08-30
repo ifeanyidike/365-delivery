@@ -1,9 +1,6 @@
 import React from "react";
 import { ImageHeroSection } from "./HeroSection";
 import FAQSection from "./FaqSection";
-import WhyChoose from "./WhyChoose";
-import TechnologySection from "./TechnologySection";
-import ModelSection from "./ModelSection";
 import { CallUs, EmailUs, OnlineAccess } from "./MessageSections";
 
 const faqs = [
@@ -41,32 +38,11 @@ const ContactPage = () => {
         imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401262/assets/20250827_1509_Delivery_Bag_Branding_remix_01k3permd9ejws0az0kp07etd7_mn7tzq.png"
         bigText="Let's Get You Started."
         smallText="Our team is here to help you deliver smarter."
-        button="Contact Us"
       />
 
       <CallUs />
       <EmailUs />
       <OnlineAccess />
-
-      {/* EXACT: Partners Section */}
-      {/* <PartnersSection /> */}
-
-      {/* EXACT: Benefits Section - Why FD365 */}
-      {/* <BenefitsSection /> */}
-
-      {/* EXACT: Become Merchant Section - image + text layout */}
-      {/* <BecomeMerchantSection /> */}
-
-      {/* EXACT: Become Driver Section - image + text layout */}
-      {/* <BecomeDriverSection /> */}
-
-      {/* EXACT: Requirements Section */}
-      {/* <RequirementsSection /> */}
-
-      {/* EXACT: How It Works Section */}
-      {/* <HowItWorks /> */}
-
-      {/* EXACT: FAQ Section */}
       <FAQSection faqs={faqs} />
     </main>
   );

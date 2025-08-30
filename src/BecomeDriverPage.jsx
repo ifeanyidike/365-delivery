@@ -38,10 +38,11 @@ const BecomeDriverPage = () => {
     <main>
       {/* EXACT: Hero Section */}
       <ImageHeroSection
-        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401262/assets/20250827_1509_Delivery_Bag_Branding_remix_01k3permd9ejws0az0kp07etd7_mn7tzq.png"
+        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756568295/Gemini_Generated_Image_5v8zh55v8zh55v8z_ed5r2s.png"
         bigText="Drive More. Earn More."
         smallText="Flexible hours, steady income, instant payouts."
         button="Apply Now"
+        actionUrl="https://form.jotform.com/251184158830154"
       />
 
       <WhyChoose

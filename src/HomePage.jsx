@@ -44,10 +44,11 @@ const HomePage = () => {
     <main>
       {/* EXACT: Hero Section */}
       <HeroSection
-        videoUrl="https://res.cloudinary.com/di6d28r5r/video/upload/v1756401266/assets/made-with-clipchamp_fbyi9a.mp4"
+        videoUrl="https://res.cloudinary.com/di6d28r5r/video/upload/v1756568058/MadeWithChimp2_e9rfkk.mp4"
         bigText="A Smarter Way to Deliver"
         smallText="Lower fees, wider reach, and more profit for everyone."
-        button="Get Started"
+        linkText1="Become a driver"
+        linkText2="Become a merchant"
       />
 
       <WhyChoose
@@ -80,26 +81,6 @@ const HomePage = () => {
         thirdTitle="Customers Enjoy Faster, Reliable Delivery"
         thirdDesc="Quicker service with greater consistency."
       />
-
-      {/* EXACT: Partners Section */}
-      {/* <PartnersSection /> */}
-
-      {/* EXACT: Benefits Section - Why FD365 */}
-      {/* <BenefitsSection /> */}
-
-      {/* EXACT: Become Merchant Section - image + text layout */}
-      {/* <BecomeMerchantSection /> */}
-
-      {/* EXACT: Become Driver Section - image + text layout */}
-      {/* <BecomeDriverSection /> */}
-
-      {/* EXACT: Requirements Section */}
-      {/* <RequirementsSection /> */}
-
-      {/* EXACT: How It Works Section */}
-      {/* <HowItWorks /> */}
-
-      {/* EXACT: FAQ Section */}
       <FAQSection faqs={faqs} />
     </main>
   );

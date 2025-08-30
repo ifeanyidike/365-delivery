@@ -38,10 +38,11 @@ const BecomeRestaurantPage = () => {
     <main>
       {/* EXACT: Hero Section */}
       <ImageHeroSection
-        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401411/assets/Gemini_Generated_Image_7uei2j7uei2j7uei_1_oriq5q.png"
+        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756568047/Gemini_Generated_Image_lppgrklppgrklppg_oypepd.png"
         bigText="Lower Fees. Higher Profits."
         smallText="Keep your setup—pay less on every delivery."
         button="Partner With Us"
+        actionUrl="https://form.jotform.com/252262710248452"
       />
 
       <WhyChoose

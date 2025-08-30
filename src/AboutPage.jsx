@@ -42,7 +42,6 @@ const AboutPage = () => {
         imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756401411/assets/Gemini_Generated_Image_7uei2j7uei2j7uei_1_oriq5q.png"
         bigText="Built for Restaurants. Powered by Drivers."
         smallText="We make food delivery smarter, cheaper, and more flexible."
-        button="Learn More"
       />
 
       <OurMission
