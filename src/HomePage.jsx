@@ -53,7 +53,7 @@ const HomePage = () => {
       />
 
       <WhyChoose
-        title="Why FD365"
+        title="Why FD365?"
         firstTitle="Save 5% instantly on every order"
         firstDesc="Lower dispatch fees compared to standard apps."
         secondTitle="Keep Using Uber Eats, DoorDash & Others"
