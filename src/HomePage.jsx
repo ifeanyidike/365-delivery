@@ -45,7 +45,7 @@ const HomePage = () => {
     <main>
       {/* EXACT: Hero Section */}
       <HeroSection
-        videoUrl="https://res.cloudinary.com/di6d28r5r/video/upload/v1756574728/ClipChimp2_v7kkpl.mp4"
+        videoUrl="https://res.cloudinary.com/di6d28r5r/video/upload/v1756886577/Made-with-champ2_l6fv46.mp4"
         bigText="A Smarter Way to Deliver"
         smallText="Lower fees, wider reach, and more profit for everyone."
         linkText1="Become a driver"
