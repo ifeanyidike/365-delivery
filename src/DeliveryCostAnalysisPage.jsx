@@ -5,9 +5,11 @@ const DeliveryCostAnalysisPage = () => {
     <main>
       {/* Hero Section */}
       <ImageHeroSection
-        imgUrl="https://res.cloudinary.com/di6d28r5r/image/upload/v1756568047/Gemini_Generated_Image_lppgrklppgrklppg_oypepd.png"
+        imgUrl="/dashboard.jpeg"
         bigText="Delivery Cost Analysis"
         smallText="Upload Your Report. We'll Show You the Savings."
+        button="Upload Reports & Get Analysis"
+        actionUrl="https://form.jotform.com/252497294793272"
       />
 
       {/* Simply upload your Uber Eats, DoorDash, Grubhub, or other marketplace Payment Detail Report from the past 30 days, and our team will analyze it for free. We'll show you exactly where you're overpaying and how much you can save with FD365 — no obligation, just insights. */}
