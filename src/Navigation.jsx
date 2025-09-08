@@ -339,10 +339,10 @@ const Navigation = () => {
               <div className="pt-4 mt-4 border-t border-gray-200/30">
                 <a
                   href="/contact"
-                  className={`w-full py-4 rounded-xl font-semibold transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] ${
+                  className={`block  text-center px-6 py-3 rounded-full font-semibold transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] ${
                     isScrolled
-                      ? "bg-green-600 text-white hover:bg-green-700 shadow-lg hover:shadow-xl"
-                      : "bg-white text-gray-900 hover:bg-gray-100 shadow-lg"
+                      ? "bg-action-primary text-white shadow-lg hover:shadow-xl"
+                      : "bg-action-primary text-white shadow-lg"
                   }`}
                 >
                   Contact

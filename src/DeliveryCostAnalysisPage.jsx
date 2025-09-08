@@ -1,4 +1,3 @@
-import React from "react";
 import { ImageHeroSection } from "./HeroSection";
 
 const DeliveryCostAnalysisPage = () => {
