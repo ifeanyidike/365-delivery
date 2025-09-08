@@ -39,121 +39,6 @@ const Navigation = () => {
     setDesktopMenuOpen(!desktopMenuOpen);
     setMobileMenuOpen(false);
   };
-
-  // Professional menu items with proper icons
-  // const menuItems = [
-  //   {
-  //     title: "Become a driver",
-  //     subtitle: "Make money on your terms",
-  //     href: "/driver",
-  //     icon: (
-  //       <svg
-  //         className="w-5 h-5"
-  //         fill="none"
-  //         stroke="currentColor"
-  //         viewBox="0 0 24 24"
-  //       >
-  //         <path
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //           strokeWidth={1.5}
-  //           d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-  //         />
-  //       </svg>
-  //     ),
-  //     color: "text-blue-600",
-  //     bgColor: "bg-blue-50",
-  //   },
-  //   {
-  //     title: "Become a courier",
-  //     subtitle: "Deliver food and get paid weekly",
-  //     href: "/courier",
-  //     icon: (
-  //       <svg
-  //         className="w-5 h-5"
-  //         fill="none"
-  //         stroke="currentColor"
-  //         viewBox="0 0 24 24"
-  //       >
-  //         <path
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //           strokeWidth={1.5}
-  //           d="M13 10V3L4 14h7v7l9-11h-7z"
-  //         />
-  //       </svg>
-  //     ),
-  //     color: "text-green-600",
-  //     bgColor: "bg-green-50",
-  //   },
-  //   {
-  //     title: "Add a restaurant or store",
-  //     subtitle: "Reach more customers and increase earnings",
-  //     href: "/restaurant",
-  //     icon: (
-  //       <svg
-  //         className="w-5 h-5"
-  //         fill="none"
-  //         stroke="currentColor"
-  //         viewBox="0 0 24 24"
-  //       >
-  //         <path
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //           strokeWidth={1.5}
-  //           d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-  //         />
-  //       </svg>
-  //     ),
-  //     color: "text-orange-600",
-  //     bgColor: "bg-orange-50",
-  //   },
-  //   {
-  //     title: "Sign up as a fleet owner",
-  //     subtitle: "Add your fleet to Bolt and boost your income",
-  //     href: "/fleet",
-  //     icon: (
-  //       <svg
-  //         className="w-5 h-5"
-  //         fill="none"
-  //         stroke="currentColor"
-  //         viewBox="0 0 24 24"
-  //       >
-  //         <path
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //           strokeWidth={1.5}
-  //           d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2"
-  //         />
-  //       </svg>
-  //     ),
-  //     color: "text-purple-600",
-  //     bgColor: "bg-purple-50",
-  //   },
-  //   {
-  //     title: "Bolt Business",
-  //     subtitle: "Bolt products and services scaled-up for your business",
-  //     href: "/business",
-  //     icon: (
-  //       <svg
-  //         className="w-5 h-5"
-  //         fill="none"
-  //         stroke="currentColor"
-  //         viewBox="0 0 24 24"
-  //       >
-  //         <path
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //           strokeWidth={1.5}
-  //           d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2h8zM16 10h.01M12 10h.01M8 10h.01"
-  //         />
-  //       </svg>
-  //     ),
-  //     color: "text-indigo-600",
-  //     bgColor: "bg-indigo-50",
-  //   },
-  // ];
-
   const menuItems = [
     {
       title: "Become a driver",
@@ -198,6 +83,28 @@ const Navigation = () => {
       ),
       color: "text-green-600",
       bgColor: "bg-green-50",
+    },
+    {
+      title: "Delivery Cost Analysis",
+      subtitle: "See how much you can save",
+      href: "/cost-analysis",
+      icon: (
+        <svg
+          className="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+          />
+        </svg>
+      ),
+      color: "text-indigo-600",
+      bgColor: "bg-indigo-50",
     },
     {
       title: "About FD365",

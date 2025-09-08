@@ -16,8 +16,6 @@ const FAQSection = ({ faqs }) => {
     }));
   };
 
-  // UPDATED: FAQ data for FD365 home page
-
   return (
     <section
       className="container container-md px-6 mb-28 md:mb-28 pt-28 -mt-28"
@@ -76,7 +74,6 @@ const FAQSection = ({ faqs }) => {
                   </svg>
                 </div>
               </h3>
-              {/* EXACT: Answer section with proper animation */}
               <div
                 className={`transition-all overflow-hidden opacity-100 ${
                   faqOpen[index] ? "max-h-[500px]" : "max-h-0"

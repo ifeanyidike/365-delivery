@@ -15,6 +15,10 @@ const Footer = ({ navigate }) => {
           action: () => handleNavigation("/restaurant"),
         },
         { name: "For Drivers", action: () => handleNavigation("/driver") },
+        {
+          name: "Delivery Cost Analysis",
+          action: () => handleNavigation("/cost-analysis"),
+        },
         { name: "How it Works", action: () => handleNavigation("/about") },
         { name: "Contact", action: () => handleNavigation("/contact") },
       ],

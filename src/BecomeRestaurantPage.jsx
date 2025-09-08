@@ -1,4 +1,3 @@
-import React from "react";
 import { ImageHeroSection } from "./HeroSection";
 import FAQSection from "./FaqSection";
 import WhyChoose from "./WhyChoose";

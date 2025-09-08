@@ -1,15 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 
-// Import all the EXACT same components
 import Navigation from "./Navigation";
 import HomePage from "./HomePage";
-// You'll need to create these other page components following the same pattern
-// import BecomeDriverPage from "./BecomeDriverPage";
-// import BecomeRestaurantPage from "./BecomeRestaurantPage";
-// import AboutPage from "./AboutPage";
-// import ContactPage from "./ContactPage";
-// import TermsPage from "./TermsPage";
 import Footer from "./FooterSection";
 import BecomeDriverPage from "./BecomeDriverPage";
 import BecomeRestaurantPage from "./BecomeRestaurantPage";
@@ -17,6 +10,7 @@ import AboutPage from "./AboutPage";
 import ContactPage from "./ContactPage";
 import TermsPage from "./TermsPage";
 import PrivacyPolicyPage from "./PrivacyPolicyPage";
+import DeliveryCostAnalysisPage from "./DeliveryCostAnalysisPage";
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
@@ -49,6 +43,8 @@ function App() {
         return <TermsPage />;
       case "/privacy":
         return <PrivacyPolicyPage />;
+      case "/cost-analysis":
+        return <DeliveryCostAnalysisPage />;
       default:
         return <HomePage />;
     }
@@ -57,7 +53,6 @@ function App() {
   return (
     <div id="___gatsby">
       <div style={{ outline: "none" }} tabIndex="-1" id="gatsby-focus-wrapper">
-        {/* EXACT: Navigation Section - same as original */}
         <Navigation
           mobileMenuOpen={mobileMenuOpen}
           setMobileMenuOpen={setMobileMenuOpen}
@@ -65,10 +60,8 @@ function App() {
           navigate={navigate}
         />
 
-        {/* EXACT: Main Content - same structure as original */}
         <main>{renderPage()}</main>
 
-        {/* EXACT: Footer Section - same as original */}
         <Footer navigate={navigate} />
       </div>
     </div>
